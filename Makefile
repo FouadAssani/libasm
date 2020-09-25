@@ -35,10 +35,10 @@ ${NAME}: ${OBJS}
 all: ${NAME}
 
 clean:
-	${RM} ${NAME}
+	${RM} ${OBJS}
 
 fclean: clean
-	${RM} ${OBJS}
+	${RM} ${NAME}
 
 re: fclean all
 
